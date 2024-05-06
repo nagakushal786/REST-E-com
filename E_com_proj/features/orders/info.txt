@@ -1,0 +1,18 @@
+Place order
+
+Multiple database operations:
+
+// Either all these operations should be performed else none should be performed
+1. Get cart items of user and calculate the total amount to be charged
+2. Create a record for the order
+3. Reduce the stock(products quantity)
+4. Clear the cart
+
+5. Deduct the payment
+6. Inform to sellers
+7. Inform to courier people
+
+Transactions:
+If any of the operation in a transaction is failed, then the database 
+is reverted back to the original state
+Session: To represent logical transaction context
