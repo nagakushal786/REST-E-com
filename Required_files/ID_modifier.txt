@@ -1,0 +1,4 @@
+1. Counter collection - keeps track of the last id inserted
+Counter collection (_id:"cartItemID", value:0)
+2. While adding the cart items, increment the counter and
+then use the counter value as id to cart document
